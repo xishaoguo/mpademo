@@ -1,0 +1,94 @@
+[2018-12-04T14:23:07.939] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T14:24:15.398] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T14:28:52.558] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T14:31:23.946] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T14:40:47.587] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T14:57:25.265] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:02:00.813] [ERROR] cheese - ReferenceError: IndexModels is not defined
+    at IndexController.testAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/IndexController.js:27:24)
+    at memberInvoker (/Users/yuyu/Desktop/yideng/mpademo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:42:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:34:12
+[2018-12-04T15:04:20.618] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:04:50.788] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:10:32.721] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index.html' }
+[2018-12-04T15:16:12.731] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index/pages/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index/pages/index.html' }
+[2018-12-04T15:16:45.881] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index/pages/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuyu/Desktop/yideng/mpademo/dist/views/index/pages/index.html' }
+[2018-12-04T15:18:37.511] [ERROR] cheese - TypeError: Path must be a string. Received { result: '大家好才是真的好' }
+    at assertPath (path.js:28:11)
+    at extname (path.js:1456:5)
+    at Object.render (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-swig/index.js:96:13)
+    at render.next (<anonymous>)
+    at onFulfilled (/Users/yuyu/Desktop/yideng/mpademo/node_modules/co/index.js:65:19)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/yuyu/Desktop/yideng/mpademo/node_modules/co/index.js:50:10)
+    at Object.createPromise [as render] (/Users/yuyu/Desktop/yideng/mpademo/node_modules/co/index.js:30:15)
+    at IndexController.indexAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/IndexController.js:22:26)
+[2018-12-04T15:38:11.566] [ERROR] cheese - TypeError: Cannot read property 'getData' of undefined
+    at Dataontroller.testAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/DataController.js:15:44)
+    at memberInvoker (/Users/yuyu/Desktop/yideng/mpademo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:42:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:34:12
+[2018-12-04T15:39:28.467] [ERROR] cheese - TypeError: Cannot read property 'getData' of undefined
+    at Dataontroller.testAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/DataController.js:15:44)
+    at memberInvoker (/Users/yuyu/Desktop/yideng/mpademo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:42:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:34:12
+[2018-12-04T15:39:30.192] [ERROR] cheese - TypeError: Cannot read property 'getData' of undefined
+    at Dataontroller.testAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/DataController.js:15:44)
+    at memberInvoker (/Users/yuyu/Desktop/yideng/mpademo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:42:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:34:12
+[2018-12-04T15:39:33.072] [ERROR] cheese - TypeError: Cannot read property 'getData' of undefined
+    at Dataontroller.testAction (/Users/yuyu/Desktop/yideng/mpademo/dist/routes/DataController.js:15:44)
+    at memberInvoker (/Users/yuyu/Desktop/yideng/mpademo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:42:32)
+    at /Users/yuyu/Desktop/yideng/mpademo/node_modules/koa-compose/index.js:34:12
+[2018-12-04T15:39:55.637] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:40:00.838] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:40:51.483] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:41:01.180] [ERROR] cheese - 我的天呐，访问了404
+[2018-12-04T15:41:39.487] [ERROR] cheese - 我的天呐，访问了404
